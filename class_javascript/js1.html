@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Prime</title>
+</head>
+<body>
+    <h1>Amazon’s. </h1>
+
+
+    <!-- <input type="number" name="a" id="a">
+    <input type="number" name="b" id="b">
+    <button id="calculate">
+        Calculate
+    </button>
+    <div id="result"></div> -->
+    <div id="container">
+            <label for="Firstnumber">First Number</label>
+            <input type="text" id="f"placeholder="Enter the First Number">
+            <label for="Secondnumber">Second Number</label>
+            <input type="text" id="m" placeholder="Enter the Second Number">
+            <button type="button" id="k">Result</button>
+            <input type="text" id="n" placeholder="Result will be Printed here ">
+       </div>
+    <script>
+           
+             function calculate(f,m){
+                 document.getElementById("n").value  = f+m;
+                 console.log(f);
+                 console.log(m);    
+                 
+        }
+            document.getElementById("k").addEventListener("click",function(){
+                  let c =  document.getElementById("f");
+                  let b = document.getElementById("m");
+
+                  calculate(parseInt(c.value), parseInt(b.value));  
+            })
+        
+
+    //     <script>
+    //     function add(a, b) {
+    //         document.getElementById("result").innerHTML = a+b;
+    //     }
+
+    //     document.getElementById("calculate").addEventListener("click", function () {
+    //         a = document.getElementById("a");
+    //         b = document.getElementById("b");
+
+    //         add(parseInt(a.value) , parseInt(b.value));
+    //     })
+    // </script>
+
+        <script>
+
+       /* var a=20;
+        var b=10;
+        var c=a+b;
+        console.log(c)*/
+       /* var s="This is a string";
+        p=s.indexOf("a");
+        l=s.lastIndexOf("i");
+        console.log(p);
+        console.log(l);
+        console.log(s[2]);
+        slice=s.slice(5,10);
+        slice2=s.slice(-5,-1);
+        slice3=s.slice(-5,);
+        subs=s.substr(5,8);
+        subs2=s.substring(0,6);//No negative slicing
+        replace=s.replace("is","at");
+        console.log(slice);
+        console.log(slice2);
+        console.log(slice3);
+        console.log(subs);
+        console.log(subs2);
+        console.log(replace);*/
+
+
+
+
+        // var a="hello my name is";
+        // var z="bhajan+hello";
+        // var b=a.toUpperCase();
+        // var c=a.toLowerCase();
+        // var d=z.trim();
+        // console.log(b);
+        // console.log(c);
+        // console.log(d);
+       
+
+
+
+        
+    </script>
+
+</body>
+</html>

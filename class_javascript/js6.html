@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #demo{
+            border:solid brown 4px;
+            height: 50px;
+            width: 110px;
+            margin:100px;
+            padding: 5px;
+            
+        }
+        body{
+            border: solid black 3px;
+            height:500px;
+            width:350px;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1 id="demo">i am  h1 tag  </h1>
+     <p id ="demo1">this is p tag</p> -->
+     <div id="demo" class="hello" >
+        <h1> box </h1>
+        
+    </div>
+    <div id="de"  >
+        <button id="demo1" onclick="hide()">click me</button>
+    </div>
+    <script>
+        // let c=document.getElementById("demo")
+        // c.addEventListener("click",function()(
+        //     c.style.backgroundColor="blue";
+        // ))
+
+        
+            function hide()
+            {
+                let c=document.getElementById("demo");
+                let btn=document.getElementById("demo1");
+                c.style.display="none";
+            }
+                
+            
+    </script>
+</body>
+</html>

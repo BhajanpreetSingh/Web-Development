@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="s1" placeholder="first value">
+    <input type="number" id="s2" placeholder="second value">
+
+        <br>
+        <br>
+
+    result:
+    <input type="number" id="s3"  placeholder="result" readonly>
+
+    <br>
+    <br>
+
+
+    <button onclick="addition()">Add the numbers</button>
+    <button onclick="subtraction()">Subtract the numbers</button>
+    <button onclick="multiply()">Multiply the numbers</button>
+    <button onclick="division()">Divide the numbers</button>
+
+    <script>
+        let c=document.getElementById("s1");
+        let y=document.getElementById("s2");
+        let d=document.getElementById("s3");
+        function addition(){
+            d.value=parseInt(c.value)+parseInt(y.value);
+        }
+        function subtraction(){
+            d.value=(c.value)-(y.value);
+        }
+        function multiply()
+        {
+            d.value=(c.value)*(y.value);
+        }
+        function division()
+        {
+            d.value=(c.value)/(y.value);
+        }
+    </script>
+</body>
+</html>

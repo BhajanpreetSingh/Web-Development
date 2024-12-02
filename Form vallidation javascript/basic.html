@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="hey i am too awesome dude ">
+    <meta name="keyword" content="javascript ">
+    <meta name="author" content="hello its me">
+    <meta name="viewport" content="">
+
+
+    <title>Document</title>
+    <style>
+        input{
+            display: block;
+             
+            ;
+        }
+        form{
+            border: 3px solid black;
+            margin-left: 500px;
+            width: 15%;
+            padding:45px;   
+            background-color: wheat;
+        }
+    </style>
+</head>
+<body>
+    <div>
+       Name: <input  type="text" id="name"><span id="sname"></span>
+       <button onclick="valid()">submit</button>
+    </div>
+
+    <script>
+     function valid(){
+         var name=document.getElementById("name").value;
+         console.log(name)
+         if(name.length<5)
+         {
+
+            namespan=document.getElementById("sname");
+            namespan.innerText="Text is small"
+            namespan.style.color="red";
+         }
+
+        
+     }
+        
+    </script>
+</body>
+</html>

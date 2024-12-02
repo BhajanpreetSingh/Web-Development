@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title></title>
+  </head>
+  <body>
+    <h1> calculator</h1>
+
+      
+      <div class="input-group mb-3">
+        <span   class="input-group-text">1 st number</span>
+        <input  id="s1"type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+      </div>
+
+      <div class="input-group mb-3">
+        <span  class="input-group-text">2nd number</span>
+        <input  id="s2"type="text" class="form-control" aria-label="Amount (to the nearest dollar)" >
+      </div>
+
+      <div class="input-group mb-3">
+        <span  id="demo" class="input-group-text">Result </span>
+        <output id="s3" type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="result"  readonly>
+      </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+    <button id="demo1" class="btn btn-success" onclick="addition()">+</button>
+    <button  class="btn btn-danger"onclick="subtraction()">-</button>
+    <button class="btn btn-warning"onclick="multiply()">*</button>
+    <button  class="btn btn-primary"onclick="division()">/</button>
+
+    <script>
+        // let c=document.getElementById("s1");
+        // let y=document.getElementById("s2");
+        // let d=document.getElementById("s3");
+        // function addition(){
+        //     d.value=parseInt(c.value)+parseInt(y.value);    
+        // }
+       
+        // function subtraction(){
+        //     d.value=(c.value)-(y.value);
+        // }   
+        // function multiply()
+        // {
+        //     d.value=(c.value)*(y.value);
+        // }
+        // function division()
+        // {
+        //     d.value=(c.value)/(y.value);
+        // }
+       
+          // to get the result in result box only
+
+        // let c=document.getElementById("s1");
+        // let y=document.getElementById("s2");  
+        // let d=document.getElementById("demo");
+        // function addition(){
+        //     d.innerHTML=parseInt(c.value)+parseInt(y.value);    
+        // }
+       
+        // function subtraction(){
+        //     d.value=(c.value)-(y.value);
+        // }   
+        // function multiply()
+        // {
+        //     d.value=(c.value)*(y.value);
+        // }
+        // function division()
+        // {
+        //     d.value=(c.value)/(y.value);
+        // }
+
+
+    //     to get the result in button box only
+        
+    //     let c=document.getElementById("s1");
+    //     let y=document.getElementById("s2");  
+    //     let d=document.getElementById("demo1");
+    //     function addition(){
+    //         d.innerHTML=parseInt(c.value)+parseInt(y.value);    
+    //     }
+       
+    //     function subtraction(){
+    //         d.value=(c.value)-(y.value);
+    //     }   
+    //     function multiply()
+    //     {
+    //         d.value=(c.value)*(y.value);
+    //     }
+    //     function division()
+    //     {
+    //         d.value=(c.value)/(y.value);
+    //     }
+
+    </script>
+  </body>
+</html>
